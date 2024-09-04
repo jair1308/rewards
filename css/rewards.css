@@ -1,0 +1,9 @@
+table.noborder tr.liste_titre{
+    background: rgb(220,220,223) !important;
+}
+table.noborder tr.impair{
+    background: rgb(255,255,255) !important;
+}
+table.noborder tr.pair{
+    background: rgb(250,250,250) !important;
+}

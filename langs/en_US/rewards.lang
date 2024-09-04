@@ -1,0 +1,68 @@
+# Dolibarr language file - en_US - Rewards
+CHARSET=UTF-8
+
+Module400008Name=Rewards
+Module400008Desc=Customers Reward System
+Permission4000811=Read the rewards
+Permission4000812=Create the rewards
+
+Rewards=Rewards
+RewardsSetup=Rewards module setup
+SetupRatio=Sales ratio by point
+SetupDiscount=Discount per point
+SetupInfoRatio=1 Point
+SetupInfoDiscount=discount per point
+SetupEcommerce=Apply to invoices generated from module ecommerce orders
+SetupYesNo=Yes/No
+SetupSelect=Select option
+RewardsSetupSaved=Settings saved correctly
+SetupApply=Apply into
+SetupValidInvoices=Invoice validation
+SetupPaidInvoices=Invoice payment
+SetupCancel=Cancel into
+SetupValidCredit=Credit note validation
+SetupPaidCredit=Credit note payment
+Points=Points
+DispoPoints=Available points
+RewardsSubject=Subject to rewards
+UsePoints=Use points
+FormUsePoints=Convert points into discount on this invoice
+Convert=Convert to discount
+ConfirmConvert=Are you sure you wish to convert %s points into a discount?<br><br>Will be converted into a discount of %s
+DisabledBecauseInvoiceNoDraft=Action off because the invoice is draft
+DisabledBecauseInvoiceInvalid=Action off because there is not a standard invoice
+DisabledBecauseNoPoints=Action off because there is no point to convert or the invoice is payed
+MaxPoints=Can not convert more points than are available
+MaxTTC=The conversion of points can not exceed the amount pending to payment of invoice<br>Maximum points usable for this invoice: %s.
+RewardsDiscountDesc=Discount per %s points conversion
+CustomerRewards=Customers subscribed to the points system
+Apply=Apply
+PDFRewardsDescription=Invoice model complete with points printing
+TotalPointsInvoice=On this purchase gain
+TotalDispoPoints=Available in
+OnlyPoints=%s is not valid points
+NoNegativePoints=The points to be applied must be greater than 0
+Bonification=Bonification
+PaymentTypePNT=Points convert
+PaymentTypeShortPNT=Points
+MinimalPayment=Minimum amount
+SetupInfoMinPay=minium for get points
+POSUsePoints=DoliPOS use points system
+ConfigPOS=<a href="%s">Setup DoliPOS module</a>
+NoPosInstalled=You do not have DoliPOS module installed/activated
+GetPOS=To get it, click <a href="%s">here</a> and/or activate it.
+AddPoints=Add points
+RemovePoints=Remove points
+ConfirmPoints=Confirm points
+HowManyPointsAdd=How many points you want to add?
+HowManyPointsRemove=How many points you want to delete?
+AddPointsThird=Add points to a third
+RemovePointsThird=Remove points to a third
+ManualMovement=Manual movement made by the user %s
+AddCustomerAutomatically=Add customers to rewards at the time of its creation
+
+#About
+AboutInfo=This module has been developed and distributed by 2byte.es Soluciones Informáticas <a href="http://www.2byte.es"> www.2byte.es </a> (Dolibarr Preferred Partner)
+MoreModules=Other modules developed by 2byte.es are available on their official store
+MoreModulesLink=<a target="_blank" href="https://shop.2byte.es/">Click to go to the shop</a>
+ModulesHelp=You have available guides and videos of our external modules<a target="_blank" href="https://liveagent.2byte.es/853598-M%C3%B3dulos-Oficiales-Externos-Dolibarr">here</a>

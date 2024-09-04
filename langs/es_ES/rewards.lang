@@ -1,0 +1,68 @@
+# Dolibarr language file - es_ES - Rewards
+CHARSET=UTF-8
+
+Module400008Name=Fidelización
+Module400008Desc=Sistema de fidelización de clientes
+Permission4000811=Acceder a fidelizaciones
+Permission4000812=Gestionar fidelizaciones
+
+Rewards=Fidelización
+RewardsSetup=Configuración del módulo fidelización
+SetupRatio=Ratio de ventas por punto
+SetupDiscount=Descuento por punto
+SetupInfoRatio=1 Punto
+SetupInfoDiscount=de bonificación por punto
+SetupEcommerce=Aplicar a facturas generadas desde pedidos de tiendas virtuales
+SetupYesNo=Sí/No
+SetupSelect=Seleccione opción
+RewardsSetupSaved=Configuración guardada correctamente
+SetupApply=Aplicar en
+SetupValidInvoices=Validación factura
+SetupPaidInvoices=Cobro factura
+SetupCancel=Cancelar en
+SetupValidCredit=Validación abono
+SetupPaidCredit=Pago abono
+Points=Puntos
+DispoPoints=Puntos disponibles
+RewardsSubject=Sujeto a fidelización
+UsePoints=Usar puntos
+FormUsePoints=Convertir puntos en bonificación en esta factura
+Convert=Convertir en bonificación
+ConfirmConvert=¿Está seguro de querer convertir %s puntos en bonificación?<br><br>Serán convertidos en una bonificación de %s
+DisabledBecauseInvoiceNoDraft=Acción desactivada porque la factura es una factura borrador
+DisabledBecauseInvoiceInvalid=Acción desactivada porque no es una factura estandard
+DisabledBecauseNoPoints=Acción desactivada porque no hay puntos a convertir o la factura está pagada
+MaxPoints=No se pueden convertir más puntos de los disponibles
+MaxTTC=La conversión de puntos no puede superar al importe pendiente de pago de la factura<br>Máximo de puntos usables para esta factura: %s.
+RewardsDiscountDesc=Descuento por conversión de %s puntos
+CustomerRewards=Clientes suscritos al sistema de puntos
+Apply=Aplicar
+PDFRewardsDescription=Modelo de factura completo con impresión de puntos
+TotalPointsInvoice=Puntos obtenidos
+TotalDispoPoints=Puntos totales a
+OnlyPoints=%s no son puntos válidos
+NoNegativePoints=Los puntos a aplicar deben ser mayor que 0
+Bonification=Bonificación
+PaymentTypePNT=Conversión puntos
+PaymentTypeShortPNT=Por puntos
+MinimalPayment=Importe mínimo
+SetupInfoMinPay=mínimos para obtener puntos
+POSUsePoints=DoliPOS usa el sistema de puntos
+ConfigPOS=<a href="%s">Configurar el módulo DoliPOS</a>
+NoPosInstalled=No tiene el módulo DoliPOS instalado/activado
+GetPOS=Para conseguirlo, haga click <a href="%s">aquí</a> y/o actívelo.
+AddPoints=Añadir puntos
+RemovePoints=Borrar puntos
+ConfirmPoints=Confirmar puntos
+HowManyPointsAdd=¿Cuantos puntos quiere añadir?
+HowManyPointsRemove=¿Cuantos puntos quiere borrar?
+AddPointsThird=Añadir puntos a un tercero
+RemovePointsThird=Borrar puntos a un tercero
+ManualMovement=Movimiento manual hecho por el usuario %s
+AddCustomerAutomatically=Añadir clientes a la fidelización en el momento de su creación
+
+#About
+AboutInfo=Este módulo ha sido desarrollado y distribuido por 2byte.es Soluciones Informáticas, <a href="http://www.2byte.es">www.2byte.es</a> (Preferred Partner de Dolibarr)
+MoreModules=Otros módulos desarrollados por 2byte.es están disponibles en su tienda oficial
+MoreModulesLink=<a target="_blank" href="https://shop.2byte.es/">Pulse para acceder a la tienda</a>
+ModulesHelp=Tienes disponibles manuales y vídeos de nuestros módulos externos <a target="_blank" href="https://liveagent.2byte.es/853598-M%C3%B3dulos-Oficiales-Externos-Dolibarr">aquí</a>

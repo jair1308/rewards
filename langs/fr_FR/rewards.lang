@@ -1,0 +1,68 @@
+# Dolibarr language file - fr_FR - Rewards
+CHARSET=UTF-8
+
+Module400008Name=Récompenses/Fidélisation
+Module400008Desc=Système de récompenses à la clientèle (fidélisation)
+Permission4000811=Voir les points fidélité
+Permission4000812=Creer les points fidélité
+
+Rewards=Récompense
+RewardsSetup=Configuration du module Récompenses
+SetupRatio=Ratio de ventes par point fidélité
+SetupDiscount=Remise par point fidélité
+SetupInfoRatio=1 Point
+SetupInfoDiscount=de remise par point
+SetupEcommerce=Appliquer sur les factures générées à partir des commandes des ecommerce
+SetupYesNo=Oui/Non
+SetupSelect=Sélectionnez option
+RewardsSetupSaved=Paramètres sauvegardés correctement
+SetupApply=Appliquer
+SetupValidInvoices=Validation des factures
+SetupPaidInvoices=Paiement factures
+SetupCancel=Annuler
+SetupValidCredit=Validation des avoirs
+SetupPaidCredit=Paiement avoirs
+Points=Points
+DispoPoints=Points disponibles
+RewardsSubject=Ajouter au programme fidélité
+UsePoints=Utiliser des points
+FormUsePoints=Convertir points fidélité en remise dans cette facture
+Convert=Convertir en remise
+ConfirmConvert=Etes-vous sûr que vous voulez convertir %s points en remise?<br><br>Sera converti en une réduction de %s
+DisabledBecauseInvoiceNoDraft=Action impossible parce que la facture est brouillon
+DisabledBecauseInvoiceInvalid=Action impossible parce que la facture n'est pas standard
+DisabledBecauseNoPoints=Action impossible parce qu'il n'y a pas de point à convertir ou la facture est déjà payée
+MaxPoints=Nombre maximum de points atteint
+MaxTTC=Vous ne pouvez pas utiliser tout ces points. Le total de remise dépasse le montant total TTC de la facture<br>Nombre maximum de points utilisables pour cette facture: %s.
+RewardsDiscountDesc=Remise fidelité (conversion de %s points)
+CustomerRewards=Clients abonnés au programme de fidélité
+Apply=Appliquer
+PDFRewardsDescription=Modèle de facture complet avec impression des points fidélité
+TotalPointsInvoice=Sur cet achat
+TotalDispoPoints=Disponibles à
+OnlyPoints=%s ne sont pas des points valables
+NoNegativePoints=Le nombre de points à appliquer doit être supérieur à 0
+Bonification=Bonification
+PaymentTypePNT=Conversion points fidélité
+PaymentTypeShortPNT=Points
+MinimalPayment=Montant minimum
+SetupInfoMinPay=minimum pour obtenir des points
+POSUsePoints=Utiliser le programme fidélité avec DoliPOS
+ConfigPOS=<a href="%s">Configurer le module DoliPOS</a>
+NoPosInstalled=Le module DoliPOS n'est pas installé/activé
+GetPOS=Pour l'obtenir, cliquez <a href="%s">ici</a> et/ou merci de l'activer.
+AddPoints=Ajouter des points
+RemovePoints=Supprimer des points
+ConfirmPoints=Confirmer les points
+HowManyPointsAdd=Combien de points souhaitez-vous ajouter?
+HowManyPointsRemove=Combien de points souhaitez-vous supprimer?
+AddPointsThird=Ajouter des points à un tiers
+RemovePointsThird=Retirer des points à un tiers
+ManualMovement=Mouvement manuel effectué par l'utilisateur %s
+AddCustomerAutomatically=Inscrire automatiquement les nouveaux clients créés au programme de fidélité
+
+#About
+AboutInfo=Ce module a été développé et distribué par 2byte.es Soluciones Informáticas <a href="http://www.2byte.es"> www.2byte.es </a> (Dolibarr Preferred Partner)
+MoreModules=Autres modules développés par 2byte.es sont disponibles sur leur boutique officielle
+MoreModulesLink=<a target="_blank" href="https://shop.2byte.es/">Cliquez pour aller à la boutique</a>
+ModulesHelp=Manuels et vidéos de nos modules disponibles <a target="_blank" externe href="https://liveagent.2byte.es/853598-M%C3%B3dulos-Oficiales-Externos-Dolibarr">ici</ a>
